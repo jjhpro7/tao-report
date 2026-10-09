@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "asset": "FLUID",
+  "generated_at": "2026-10-09T17:39:26.273328+00:00",
+  "daily_observations": 1,
+  "is_full_seven_day_sample": false,
+  "sample_based_fluid_price_change_pct": null,
+  "sample_based_tvl_change_pct": null,
+  "revenue_30d_vs_prior_30d_pct": null,
+  "dex_volume_7d_vs_prior_7d_pct": null,
+  "latest_decision": {
+    "current_action": "HOLD_NO_ADD",
+    "action_is_not_trade_execution": true,
+    "buyback_verified_live": false,
+    "buyback_status": "UNVERIFIED_AFTER_2026_05_PAUSE_PROPOSAL",
+    "token_capture_state": "NO_MEASURED_HOLDER_DISTRIBUTION",
+    "evidence_confidence": "MEDIUM",
+    "price_forecast_confidence": "LOW",
+    "risk_triggers": [],
+    "data_quality_warnings": [
+      "최신 거버넌스 관련 제목은 검토 전까지 사실 확정 금지"
+    ],
+    "thesis": {
+      "F1_real_usage": "OBSERVED",
+      "F2_lending_utilization": "UNKNOWN_NO_ACTIVE_LOANS_ADAPTER",
+      "F3_protocol_revenue": "OBSERVED",
+      "F4_competitive_moat": "UNKNOWN_NOT_NORMALIZED",
+      "F5_token_value_capture": "NO_MEASURED_HOLDER_DISTRIBUTION",
+      "F6_security_solvency": "UNVERIFIED_CURRENT_EXPOSURE",
+      "F7_supply_and_valuation": "OBSERVED"
+    },
+    "invalidations_to_check": [
+      "Unresolved bad debt or deposit loss",
+      "Sustained loan/TVL contraction and revenue collapse",
+      "Governance blocks token value accrual indefinitely"
+    ]
+  },
+  "warning": "Sample changes need >=8 separate daily snapshots. Rolling 7d/30d provider windows are not sampled snapshots."
+}

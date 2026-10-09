@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "asset": "FLUID",
+  "generated_at": "2026-10-09T17:39:26.273328+00:00",
+  "market": {
+    "fluid": {
+      "price_usd": 2.07,
+      "market_cap_usd": 172964694.0,
+      "price_change_24h_pct": 12.3053,
+      "price_change_7d_pct": 27.7412,
+      "price_change_30d_pct": 68.2543,
+      "observed_at": "2026-10-09T17:38:50.000Z",
+      "volume_24h_usd": 3982729.0,
+      "fdv_usd": 206655795.0,
+      "circulating_supply": 83696996.82034639,
+      "total_supply": 100000000.0,
+      "max_supply": 100000000.0,
+      "circulating_supply_pct_of_total": 83.69699682034638
+    },
+    "bitcoin": {
+      "price_usd": 82651.0,
+      "market_cap_usd": 1660843539919.0,
+      "price_change_24h_pct": 2.2493,
+      "price_change_7d_pct": -3.0932,
+      "price_change_30d_pct": 5.2176,
+      "observed_at": "2026-10-09T17:38:50.000Z"
+    },
+    "ethereum": {
+      "price_usd": 2485.84,
+      "market_cap_usd": 303532332314.0,
+      "price_change_24h_pct": 2.65446,
+      "price_change_7d_pct": -7.6929,
+      "price_change_30d_pct": -0.0167,
+      "observed_at": "2026-10-09T17:38:50.000Z"
+    },
+    "fluid_vs_btc_7d_pct": 31.81861334808289,
+    "fluid_vs_btc_30d_pct": 59.91079439181277
+  },
+  "business": {
+    "combined": {
+      "tvl_usd": 914261155.0,
+      "observed_at": "2026-10-09T16:54:11+00:00",
+      "chain_tvl_usd_non_additive": {
+        "Plasma": 42533251.0,
+        "Base": 25671377.0,
+        "Arbitrum": 138252204.0,
+        "Polygon": 4171789.0,
+        "Ethereum": 703632532.0
+      }
+    },
+    "lending_component": {
+      "tvl_usd": 700957173.0,
+      "observed_at": "2026-10-09T16:54:11+00:00",
+      "chain_tvl_usd_non_additive": {
+        "Plasma": 42533251.96721,
+        "Base": 25671377.6995,
+        "Arbitrum": 138252204.14226,
+        "Polygon": 4171789.58732,
+        "Ethereum": 490328550.48646
+      }
+    },
+    "dex_component": {
+      "tvl_usd": 296564009.0,
+      "observed_at": "2026-10-09T15:52:23+00:00",
+      "chain_tvl_usd_non_additive": {
+        "Ethereum": 214098984.51368,
+        "Plasma": 39454767.26269,
+        "Base": 6755281.3632,
+        "Arbitrum": 35105644.58175,
+        "Polygon": 1149332.23678
+      }
+    },
+    "protocol_fees": {
+      "status": "OBSERVED",
+      "total_24h_usd": 122239.0,
+      "total_7d_usd": 798886.0,
+      "total_30d_usd": 3728887.63,
+      "previous_7d_usd": null,
+      "previous_30d_usd": null,
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "change_7d_vs_prior_7d_pct": null,
+      "change_30d_vs_prior_30d_pct": null
+    },
+    "protocol_revenue": {
+      "status": "OBSERVED",
+      "total_24h_usd": 20460.0,
+      "total_7d_usd": 137451.0,
+      "total_30d_usd": 588610.63,
+      "previous_7d_usd": null,
+      "previous_30d_usd": null,
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "change_7d_vs_prior_7d_pct": null,
+      "change_30d_vs_prior_30d_pct": null
+    },
+    "lending_revenue_component": {
+      "status": "OBSERVED",
+      "total_24h_usd": 13368.0,
+      "total_7d_usd": 95038.0,
+      "total_30d_usd": 415304.0,
+      "previous_7d_usd": null,
+      "previous_30d_usd": null,
+      "observed_at": "2026-10-08T00:00:00+00:00",
+      "change_7d_vs_prior_7d_pct": null,
+      "change_30d_vs_prior_30d_pct": null
+    },
+    "dex_revenue_component": {
+      "status": "OBSERVED",
+      "total_24h_usd": 1812.0,
+      "total_7d_usd": 10246.0,
+      "total_30d_usd": 40330.0,
+      "previous_7d_usd": null,
+      "previous_30d_usd": null,
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "change_7d_vs_prior_7d_pct": null,
+      "change_30d_vs_prior_30d_pct": null
+    },
+    "dex_volume": {
+      "status": "OBSERVED",
+      "total_24h_usd": 157846115.0,
+      "total_7d_usd": 838219841.0,
+      "total_30d_usd": 3736860096.0,
+      "previous_7d_usd": null,
+      "previous_30d_usd": null,
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "change_7d_vs_prior_7d_pct": null,
+      "change_30d_vs_prior_30d_pct": null
+    },
+    "important": "Combined and component TVL/revenue are NOT summed. Fees are not revenue. Borrow interest paid to suppliers is not tokenholder earnings.",
+    "tvl_change_30d_pct": -5.630195291120533
+  },
+  "token_capture": {
+    "holders_revenue": {
+      "status": "OBSERVED",
+      "total_24h_usd": 0.0,
+      "total_7d_usd": 0.0,
+      "total_30d_usd": 0.0,
+      "previous_7d_usd": null,
+      "previous_30d_usd": null,
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "change_7d_vs_prior_7d_pct": null,
+      "change_30d_vs_prior_30d_pct": null
+    },
+    "actual_buybacks_usd_30d": null,
+    "actual_burns_tokens_30d": null,
+    "buyback_pause_2026_05_11": "GOVERNANCE_PROPOSAL_DOCUMENTED_NOT_LIVE_VERIFIED",
+    "token_capture_mechanism_verified_current": false,
+    "source": "https://gov.fluid.io/t/post-mortem-treasury-actions-and-forward-strategy-following-resolv-incident/1774"
+  },
+  "valuation": {
+    "fdv_to_protocol_revenue_runrate": 29.257569218551147,
+    "annualization_warning": "Last 30 days x12 is a run rate, not a forecast or corporate earnings multiple."
+  },
+  "governance_headline_watch": [
+    {
+      "title": "Increase Foundation Monthly Grant from $250,000 to $350,000",
+      "last_posted_at": "2026-08-02T15:15:10.360Z",
+      "url": "https://gov.fluid.io/t/increase-foundation-monthly-grant-from-250-000-to-350-000/1787",
+      "classification": "UNVERIFIED_HEADLINE_REQUIRES_REVIEW"
+    },
+    {
+      "title": "Post-Mortem, Treasury Actions, and Forward Strategy Following Resolv Incident",
+      "last_posted_at": "2026-05-11T20:58:11.952Z",
+      "url": "https://gov.fluid.io/t/post-mortem-treasury-actions-and-forward-strategy-following-resolv-incident/1774",
+      "classification": "UNVERIFIED_HEADLINE_REQUIRES_REVIEW"
+    },
+    {
+      "title": "Security budget request",
+      "last_posted_at": "2026-01-07T17:29:28.259Z",
+      "url": "https://gov.fluid.io/t/security-budget-request/1754",
+      "classification": "UNVERIFIED_HEADLINE_REQUIRES_REVIEW"
+    },
+    {
+      "title": "Fluid Growth Vision & Community Buyback Discussion",
+      "last_posted_at": "2025-09-17T23:04:46.397Z",
+      "url": "https://gov.fluid.io/t/fluid-growth-vision-community-buyback-discussion/1691",
+      "classification": "UNVERIFIED_HEADLINE_REQUIRES_REVIEW"
+    },
+    {
+      "title": "Divest $MORPHO to buyback $FLUID",
+      "last_posted_at": "2025-01-09T04:00:04.565Z",
+      "url": "https://gov.fluid.io/t/divest-morpho-to-buyback-fluid/1105",
+      "classification": "UNVERIFIED_HEADLINE_REQUIRES_REVIEW"
+    }
+  ],
+  "source_health": {
+    "market": {
+      "status": "FRESH",
+      "url": "https://api.coingecko.com/api/v3/coins/markets",
+      "observed_at": "2026-10-09T17:38:50.000Z",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "combined_tvl": {
+      "status": "FRESH",
+      "url": "https://api.llama.fi/protocol/fluid",
+      "observed_at": "2026-10-09T16:54:11+00:00",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "lending_tvl": {
+      "status": "FRESH",
+      "url": "https://api.llama.fi/protocol/fluid-lending",
+      "observed_at": "2026-10-09T16:54:11+00:00",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "dex_tvl": {
+      "status": "FRESH",
+      "url": "https://api.llama.fi/protocol/fluid-dex",
+      "observed_at": "2026-10-09T15:52:23+00:00",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "fees": {
+      "status": "FRESH",
+      "url": "https://api.llama.fi/summary/fees/fluid?dataType=dailyFees",
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "revenue": {
+      "status": "FRESH",
+      "url": "https://api.llama.fi/summary/fees/fluid?dataType=dailyRevenue",
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "holders_revenue": {
+      "status": "FRESH",
+      "url": "https://api.llama.fi/summary/fees/fluid?dataType=dailyHoldersRevenue",
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "lending_revenue": {
+      "status": "FRESH",
+      "url": "https://api.llama.fi/summary/fees/fluid-lending?dataType=dailyRevenue",
+      "observed_at": "2026-10-08T00:00:00+00:00",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "dex_revenue": {
+      "status": "FRESH",
+      "url": "https://api.llama.fi/summary/fees/fluid-dex?dataType=dailyRevenue",
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "dex_volume": {
+      "status": "FRESH",
+      "url": "https://api.llama.fi/summary/dexs/fluid-dex",
+      "observed_at": "2026-10-09T00:00:00+00:00",
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    },
+    "governance": {
+      "status": "FETCHED_OBSERVATION_UNDATED",
+      "url": "https://gov.fluid.io/latest.json",
+      "observed_at": null,
+      "retrieved_at": "2026-10-09T17:39:26.273328+00:00"
+    }
+  },
+  "decision": {
+    "current_action": "HOLD_NO_ADD",
+    "action_is_not_trade_execution": true,
+    "buyback_verified_live": false,
+    "buyback_status": "UNVERIFIED_AFTER_2026_05_PAUSE_PROPOSAL",
+    "token_capture_state": "NO_MEASURED_HOLDER_DISTRIBUTION",
+    "evidence_confidence": "MEDIUM",
+    "price_forecast_confidence": "LOW",
+    "risk_triggers": [],
+    "data_quality_warnings": [
+      "최신 거버넌스 관련 제목은 검토 전까지 사실 확정 금지"
+    ],
+    "thesis": {
+      "F1_real_usage": "OBSERVED",
+      "F2_lending_utilization": "UNKNOWN_NO_ACTIVE_LOANS_ADAPTER",
+      "F3_protocol_revenue": "OBSERVED",
+      "F4_competitive_moat": "UNKNOWN_NOT_NORMALIZED",
+      "F5_token_value_capture": "NO_MEASURED_HOLDER_DISTRIBUTION",
+      "F6_security_solvency": "UNVERIFIED_CURRENT_EXPOSURE",
+      "F7_supply_and_valuation": "OBSERVED"
+    },
+    "invalidations_to_check": [
+      "Unresolved bad debt or deposit loss",
+      "Sustained loan/TVL contraction and revenue collapse",
+      "Governance blocks token value accrual indefinitely"
+    ]
+  },
+  "scenarios": {
+    "bear": "Revenue contraction + additional bad debt; token capture remains absent",
+    "base": "Protocol recovery, token capture unconfirmed; no numeric return forecast",
+    "bull": "Growth plus externally verified sustained buybacks or equivalent holder-rights change",
+    "confidence": "LOW",
+    "numeric_targets_locked": false
+  },
+  "methodology": "Observed data vs governance proposals vs hypothetical scenarios are distinct. No automatic trading."
+}
