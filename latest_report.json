@@ -1,0 +1,262 @@
+{
+  "business": {
+    "annualized_commercial_activity": 16252297.79316322,
+    "commercial_candidates": 9,
+    "latest_comparable_month": "2026-08",
+    "revenue_evidence_subnets": 5,
+    "same_store_index": 187.05260438480457,
+    "strict_verified_subnets": 2,
+    "top1_revenue_concentration": 0.7134354748311849,
+    "usage_evidence_subnets": 8,
+    "verified_commercial_revenue": 1354358.1494302682
+  },
+  "data_as_of": "2026-10-09T00:40:13Z",
+  "data_quality_warnings": [
+    "CoinGecko TAO spot freshness=STALE_REFRESHABLE",
+    "CoinGecko bitcoin daily close freshness=STALE_REFRESHABLE",
+    "CoinGecko bittensor daily close freshness=STALE_REFRESHABLE",
+    "CoinGecko ethereum daily close freshness=STALE_REFRESHABLE",
+    "DefiLlama Chutes current total30d freshness=UNKNOWN_CURRENT_FIELD",
+    "DefiLlama Chutes historical daily freshness=STALE_SOURCE_LIMITATION",
+    "Lium monthly completed revenue freshness=CURRENT_FOR_CADENCE",
+    "Taostats exchange transfers freshness=STALE_REFRESHABLE",
+    "Taostats subnet flow breadth freshness=STALE_REFRESHABLE",
+    "Taostats subnet flow concentration freshness=STALE_REFRESHABLE",
+    "Taostats/direct chain free TAO freshness=STALE_REFRESHABLE",
+    "Taostats/direct chain issuance freshness=STALE_REFRESHABLE",
+    "Taostats/direct chain staked TAO freshness=STALE_REFRESHABLE",
+    "UNKNOWN evidence: A2 네트워크 상업 폭",
+    "UNKNOWN evidence: A5.3 외부매출 → alpha 시장수요",
+    "UNKNOWN evidence: A5.4 alpha → TAO 수요",
+    "UNKNOWN evidence: A6 외부 token demand",
+    "business expectation confidence=LOW",
+    "predictive reliability is LOW"
+  ],
+  "decision": {
+    "current_action": "HOLD",
+    "downside_triggers": [
+      "A5 미검증 상태에서 가격 상승",
+      "flow 집중도 추가 상승",
+      "A7 약화/훼손"
+    ],
+    "evidence_confidence": "MEDIUM",
+    "forecast_confidence": "LOW",
+    "negative_reasons": [
+      "30일 서브넷 flow 확산도 -3.4%",
+      "30일 flow 집중도 +27.5%",
+      "유통 가능 공급 압력 증가: 30일 staking ratio -0.47pp; 30일 유통 가능 공급 비율 +0.45pp"
+    ],
+    "positive_reasons": [
+      "검증 상업 활동: 1,354,358달러 / 최근 완결 비교 가능 월",
+      "A3 기존 사업 성장: 지수 187.05",
+      "A7 구조적 역할 유지"
+    ],
+    "previous_action": "HOLD",
+    "price_fundamental_state": "TAO_RELATIVE_STRENGTH_RERATING_UNCONFIRMED",
+    "sell_priority": "NORMAL",
+    "unknowns": [
+      "A5.3 외부매출 → alpha 시장수요",
+      "A5.4 alpha → TAO 수요",
+      "A6 외부 token demand"
+    ],
+    "upside_triggers": [
+      "commercial cohort 폭 확대",
+      "성장 폭 개선",
+      "top1 집중도 하락"
+    ]
+  },
+  "expectation": {
+    "business_surprise": "NO_NEW_COMPARABLE_PERIOD",
+    "confidence": "LOW",
+    "expected_strict_verified_subnets": 2.155,
+    "expected_top1_concentration": 0.6998753891660918,
+    "model": "empirical_expectation_v2",
+    "revenue_base": 1380598.8385754798,
+    "revenue_bear": 1324172.8921748411,
+    "revenue_bull": 1493179.8597468708,
+    "target_attainment": 1,
+    "target_month": "2026-10",
+    "vintage": "2026-10-09T00:40:13Z"
+  },
+  "freshness": {
+    "coingecko_bitcoin_daily_close": {
+      "age": "2일",
+      "expected_cadence": "daily_close",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07",
+      "latest_retrieved_at": "2026-10-07 16:01 UTC",
+      "metric": "bitcoin daily close",
+      "refresh_possible_now": "YES",
+      "source": "CoinGecko"
+    },
+    "coingecko_bittensor_daily_close": {
+      "age": "2일",
+      "expected_cadence": "daily_close",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07",
+      "latest_retrieved_at": "2026-10-07 16:01 UTC",
+      "metric": "bittensor daily close",
+      "refresh_possible_now": "YES",
+      "source": "CoinGecko"
+    },
+    "coingecko_ethereum_daily_close": {
+      "age": "2일",
+      "expected_cadence": "daily_close",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07",
+      "latest_retrieved_at": "2026-10-07 16:01 UTC",
+      "metric": "ethereum daily close",
+      "refresh_possible_now": "YES",
+      "source": "CoinGecko"
+    },
+    "coingecko_tao_spot": {
+      "age": "2일",
+      "expected_cadence": "spot",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07 16:01 UTC",
+      "latest_retrieved_at": "2026-10-07 16:01 UTC",
+      "metric": "TAO spot",
+      "refresh_possible_now": "YES",
+      "source": "CoinGecko"
+    },
+    "defillama_chutes_current_total30d": {
+      "age": "2일",
+      "expected_cadence": "current_summary",
+      "failure_reason": "latest source response did not expose a numeric total30d revenue field",
+      "freshness_state": "UNKNOWN_CURRENT_FIELD",
+      "latest_observed_at": "2026-10-07 15:33 UTC",
+      "latest_retrieved_at": "2026-10-07 15:33 UTC",
+      "metric": "Chutes current total30d",
+      "refresh_possible_now": "YES",
+      "source": "DefiLlama"
+    },
+    "defillama_chutes_historical_daily": {
+      "age": "33일",
+      "expected_cadence": "source_stale_allowed",
+      "failure_reason": "historical daily source stops at latest source date",
+      "freshness_state": "STALE_SOURCE_LIMITATION",
+      "latest_observed_at": "2026-09-06",
+      "latest_retrieved_at": "2026-10-07 15:33 UTC",
+      "metric": "Chutes historical daily",
+      "refresh_possible_now": "YES",
+      "source": "DefiLlama"
+    },
+    "lium_monthly_completed_revenue": {
+      "age": "38일",
+      "expected_cadence": "monthly_completed",
+      "failure_reason": "monthly completed-period source",
+      "freshness_state": "CURRENT_FOR_CADENCE",
+      "latest_observed_at": "2026-09-01 00:00 UTC",
+      "latest_retrieved_at": "2026-10-05 02:21 UTC",
+      "metric": "monthly completed revenue",
+      "refresh_possible_now": "NO",
+      "source": "Lium"
+    },
+    "taostats_direct_chain_free_tao": {
+      "age": "2일",
+      "expected_cadence": "current_snapshot",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07 15:59 UTC",
+      "latest_retrieved_at": "2026-10-07 15:59 UTC",
+      "metric": "free TAO",
+      "refresh_possible_now": "YES",
+      "source": "Taostats/direct chain"
+    },
+    "taostats_direct_chain_issuance": {
+      "age": "2일",
+      "expected_cadence": "current_snapshot",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07 15:59 UTC",
+      "latest_retrieved_at": "2026-10-07 15:59 UTC",
+      "metric": "issuance",
+      "refresh_possible_now": "YES",
+      "source": "Taostats/direct chain"
+    },
+    "taostats_direct_chain_staked_tao": {
+      "age": "2일",
+      "expected_cadence": "current_snapshot",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07 15:59 UTC",
+      "latest_retrieved_at": "2026-10-07 15:59 UTC",
+      "metric": "staked TAO",
+      "refresh_possible_now": "YES",
+      "source": "Taostats/direct chain"
+    },
+    "taostats_exchange_transfers": {
+      "age": "2일",
+      "expected_cadence": "incremental",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07 15:57 UTC",
+      "latest_retrieved_at": "2026-10-07 15:57 UTC",
+      "metric": "exchange transfers",
+      "refresh_possible_now": "YES",
+      "source": "Taostats"
+    },
+    "taostats_subnet_flow_breadth": {
+      "age": "2일",
+      "expected_cadence": "rolling_window",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07 16:01 UTC",
+      "latest_retrieved_at": "2026-10-07 16:01 UTC",
+      "metric": "subnet flow breadth",
+      "refresh_possible_now": "YES",
+      "source": "Taostats"
+    },
+    "taostats_subnet_flow_concentration": {
+      "age": "2일",
+      "expected_cadence": "rolling_window",
+      "failure_reason": null,
+      "freshness_state": "STALE_REFRESHABLE",
+      "latest_observed_at": "2026-10-07 16:01 UTC",
+      "latest_retrieved_at": "2026-10-07 16:01 UTC",
+      "metric": "subnet flow concentration",
+      "refresh_possible_now": "YES",
+      "source": "Taostats"
+    }
+  },
+  "generated_at": "2026-10-09T16:05:32Z",
+  "market": {
+    "btc_price_usd": 83414,
+    "crypto_market_regime": "RISK_ON",
+    "eth_price_usd": 2569.51,
+    "tao_price_usd": 289.77,
+    "tao_return_1d": 0.010220569702318511,
+    "tao_return_30d": 0.1623546981774909,
+    "tao_return_7d": 0.02764639633519087,
+    "tao_vs_btc_30d": 0.09748750541285327,
+    "tao_vs_btc_7d": 0.004930193217903505,
+    "tao_vs_eth_30d": 0.08949771642810965,
+    "tao_vs_eth_7d": 0.02025564163940628
+  },
+  "schema_version": "1.0",
+  "supply_flow": {
+    "exchange_inflow": 20315.82972272,
+    "exchange_netflow": -638.920887668,
+    "exchange_outflow": 20954.750610388,
+    "flow_breadth": 0.21875,
+    "flow_concentration": 0.7942393130728799,
+    "issued_tao": 11593549.631505279,
+    "liquid_supply_ratio": null,
+    "staked_tao": 7443222.331396187,
+    "staking_ratio": null,
+    "tao_supply_flow_state": "WEAKENING"
+  },
+  "thesis": {
+    "A1": "OBSERVED",
+    "A2": "UNKNOWN",
+    "A3": "OBSERVED",
+    "A4": "UNKNOWN",
+    "A5": "UNKNOWN",
+    "A6": "UNKNOWN",
+    "A7": "INTACT"
+  }
+}
