@@ -1,1 +1,34 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+name: FLUID Monitor
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 15 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: fluid-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Tests
+        run: python3 -m unittest discover -s fluid/tests -v
+      - name: Fetch data and generate reports
+        env:
+          COINGECKO_DEMO_API_KEY: ${{ secrets.COINGECKO_DEMO_API_KEY }}
+        run: python3 fluid/monitor.py --mode live
+      - name: Publish JSON report snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fluid/data/
+          if ! git diff --cached --quiet; then
+            git commit -m "data(fluid): update daily and weekly report"
+            git push
+          fi
