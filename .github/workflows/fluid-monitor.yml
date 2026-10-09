@@ -1,5 +1,9 @@
 name: FLUID Monitor
 on:
+  push:
+    paths:
+      - 'fluid/**'
+      - '.github/workflows/fluid-monitor.yml'
   workflow_dispatch:
   schedule:
     - cron: '30 15 * * *'
