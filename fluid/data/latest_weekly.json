@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "asset": "FLUID",
-  "generated_at": "2026-10-09T17:39:26.273328+00:00",
-  "daily_observations": 1,
+  "generated_at": "2026-10-10T15:42:01.258822+00:00",
+  "daily_observations": 2,
   "is_full_seven_day_sample": false,
   "sample_based_fluid_price_change_pct": null,
   "sample_based_tvl_change_pct": null,
