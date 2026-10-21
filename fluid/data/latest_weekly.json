@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
   "asset": "FLUID",
-  "generated_at": "2026-10-20T16:01:21.522307+00:00",
-  "daily_observations": 12,
+  "generated_at": "2026-10-21T16:02:50.177614+00:00",
+  "daily_observations": 13,
   "is_full_seven_day_sample": true,
-  "sample_based_fluid_price_change_pct": 6.726457399103136,
-  "sample_based_tvl_change_pct": -1.9653930116081408,
+  "sample_based_fluid_price_change_pct": 5.128205128205132,
+  "sample_based_tvl_change_pct": 1.2290742424692525,
   "revenue_30d_vs_prior_30d_pct": null,
   "dex_volume_7d_vs_prior_7d_pct": null,
   "latest_decision": {
