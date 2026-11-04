@@ -1,132 +1,132 @@
 {
   "schema_version": "1.0",
   "asset": "FLUID",
-  "generated_at": "2026-11-03T16:20:43.182741+00:00",
+  "generated_at": "2026-11-04T16:19:26.874120+00:00",
   "market": {
     "fluid": {
-      "price_usd": 1.99,
-      "market_cap_usd": 166144840.0,
-      "price_change_24h_pct": 8.38467,
-      "price_change_7d_pct": -9.129,
-      "price_change_30d_pct": 13.8552,
-      "observed_at": "2026-11-03T16:19:51.000Z",
-      "volume_24h_usd": 3131986.0,
-      "fdv_usd": 198507529.0,
+      "price_usd": 2.25,
+      "market_cap_usd": 188015331.0,
+      "price_change_24h_pct": 13.16351,
+      "price_change_7d_pct": 3.2988,
+      "price_change_30d_pct": 7.6832,
+      "observed_at": "2026-11-04T16:18:53.000Z",
+      "volume_24h_usd": 6913188.0,
+      "fdv_usd": 224638086.0,
       "circulating_supply": 83696996.82034639,
       "total_supply": 100000000.0,
       "max_supply": 100000000.0,
       "circulating_supply_pct_of_total": 83.69699682034638
     },
     "bitcoin": {
-      "price_usd": 77449.0,
-      "market_cap_usd": 1557142034972.0,
-      "price_change_24h_pct": 0.12862,
-      "price_change_7d_pct": -3.262,
-      "price_change_30d_pct": -8.9335,
-      "observed_at": "2026-11-03T16:19:51.000Z"
+      "price_usd": 80515.0,
+      "market_cap_usd": 1618774774096.0,
+      "price_change_24h_pct": 3.95807,
+      "price_change_7d_pct": -0.4519,
+      "price_change_30d_pct": -6.412,
+      "observed_at": "2026-11-04T16:18:53.000Z"
     },
     "ethereum": {
-      "price_usd": 2288.31,
-      "market_cap_usd": 279599324601.0,
-      "price_change_24h_pct": 0.91587,
-      "price_change_7d_pct": -1.4529,
-      "price_change_30d_pct": -14.7942,
-      "observed_at": "2026-11-03T16:19:51.000Z"
+      "price_usd": 2438.3,
+      "market_cap_usd": 297934338418.0,
+      "price_change_24h_pct": 6.55501,
+      "price_change_7d_pct": 3.8373,
+      "price_change_30d_pct": -10.5157,
+      "observed_at": "2026-11-04T16:18:53.000Z"
     },
-    "fluid_vs_btc_7d_pct": -6.064834914924844,
-    "fluid_vs_btc_30d_pct": 25.024240527526587
+    "fluid_vs_btc_7d_pct": 3.7677263554000584,
+    "fluid_vs_btc_30d_pct": 15.060905244262091
   },
   "business": {
     "combined": {
-      "tvl_usd": 809897785.0,
-      "observed_at": "2026-11-03T14:29:23+00:00",
+      "tvl_usd": 828509711.0,
+      "observed_at": "2026-11-04T15:02:11+00:00",
       "chain_tvl_usd_non_additive": {
-        "Ethereum": 633440499.0,
-        "Arbitrum": 127808492.0,
-        "Plasma": 27347961.0,
-        "Polygon": 3574947.0,
-        "Base": 17725885.0
+        "Arbitrum": 127925911.0,
+        "Ethereum": 651983939.0,
+        "Base": 18219068.0,
+        "Polygon": 3668426.0,
+        "Plasma": 26712365.0
       }
     },
     "lending_component": {
-      "tvl_usd": 614409622.0,
-      "observed_at": "2026-11-03T14:29:23+00:00",
+      "tvl_usd": 627258308.0,
+      "observed_at": "2026-11-04T14:59:35+00:00",
       "chain_tvl_usd_non_additive": {
-        "Ethereum": 437952336.80312,
-        "Arbitrum": 127808492.58911,
-        "Plasma": 27347961.00577,
-        "Polygon": 3574947.49099,
-        "Base": 17725885.07746
+        "Arbitrum": 127925911.35518,
+        "Ethereum": 450732536.94306,
+        "Base": 18219068.60597,
+        "Polygon": 3668426.72007,
+        "Plasma": 26712365.29217
       }
     },
     "dex_component": {
-      "tvl_usd": 213373602.0,
-      "observed_at": "2026-11-03T14:58:23+00:00",
+      "tvl_usd": 221221154.0,
+      "observed_at": "2026-11-04T15:28:23+00:00",
       "chain_tvl_usd_non_additive": {
-        "Polygon": 1150369.83103,
-        "Arbitrum": 26656876.06172,
-        "Ethereum": 178206900.70797,
-        "Base": 3819447.84186,
-        "Plasma": 3540008.12688
+        "Polygon": 1150828.0928,
+        "Base": 4086527.18314,
+        "Arbitrum": 28115773.87878,
+        "Ethereum": 184313890.05207,
+        "Plasma": 3554135.12632
       }
     },
     "protocol_fees": {
       "status": "OBSERVED",
-      "total_24h_usd": 16230.0,
-      "total_7d_usd": 829474.0,
-      "total_30d_usd": 3463731.0,
+      "total_24h_usd": 16245.0,
+      "total_7d_usd": 839245.0,
+      "total_30d_usd": 3462284.0,
       "previous_7d_usd": null,
       "previous_30d_usd": null,
-      "observed_at": "2026-11-03T00:00:00+00:00",
+      "observed_at": "2026-11-04T00:00:00+00:00",
       "change_7d_vs_prior_7d_pct": null,
       "change_30d_vs_prior_30d_pct": null
     },
     "protocol_revenue": {
       "status": "OBSERVED",
-      "total_24h_usd": 6509.0,
-      "total_7d_usd": 202754.0,
-      "total_30d_usd": 728899.0,
+      "total_24h_usd": 8427.0,
+      "total_7d_usd": 210953.0,
+      "total_30d_usd": 737158.0,
       "previous_7d_usd": null,
       "previous_30d_usd": null,
-      "observed_at": "2026-11-03T00:00:00+00:00",
+      "observed_at": "2026-11-04T00:00:00+00:00",
       "change_7d_vs_prior_7d_pct": null,
       "change_30d_vs_prior_30d_pct": null
     },
     "lending_revenue_component": {
       "status": "OBSERVED",
-      "total_24h_usd": 15005.0,
-      "total_7d_usd": 106390.0,
-      "total_30d_usd": 494751.0,
+      "total_24h_usd": 19628.0,
+      "total_7d_usd": 110302.0,
+      "total_30d_usd": 497994.0,
       "previous_7d_usd": null,
       "previous_30d_usd": null,
-      "observed_at": "2026-11-01T00:00:00+00:00",
+      "observed_at": "2026-11-02T00:00:00+00:00",
       "change_7d_vs_prior_7d_pct": null,
       "change_30d_vs_prior_30d_pct": null
     },
     "dex_revenue_component": {
       "status": "OBSERVED",
-      "total_24h_usd": 1721.0,
-      "total_7d_usd": 14343.0,
-      "total_30d_usd": 40749.0,
+      "total_24h_usd": 1297.0,
+      "total_7d_usd": 15013.0,
+      "total_30d_usd": 41405.0,
       "previous_7d_usd": null,
       "previous_30d_usd": null,
-      "observed_at": "2026-11-03T00:00:00+00:00",
+      "observed_at": "2026-11-04T00:00:00+00:00",
       "change_7d_vs_prior_7d_pct": null,
       "change_30d_vs_prior_30d_pct": null
     },
     "dex_volume": {
       "status": "OBSERVED",
-      "total_24h_usd": 226507028.0,
-      "total_7d_usd": 1781424824.0,
-      "total_30d_usd": 4550918433.0,
+      "total_24h_usd": 196806379.0,
+      "total_7d_usd": 1849872764.0,
+      "total_30d_usd": 4679546992.0,
       "previous_7d_usd": null,
       "previous_30d_usd": null,
-      "observed_at": "2026-11-03T00:00:00+00:00",
+      "observed_at": "2026-11-04T00:00:00+00:00",
       "change_7d_vs_prior_7d_pct": null,
       "change_30d_vs_prior_30d_pct": null
     },
     "important": "Combined and component TVL/revenue are NOT summed. Fees are not revenue. Borrow interest paid to suppliers is not tokenholder earnings.",
-    "tvl_change_30d_pct": -15.858394678772669
+    "tvl_change_30d_pct": -14.843263535157458
   },
   "token_capture": {
     "holders_revenue": {
@@ -136,7 +136,7 @@
       "total_30d_usd": 0.0,
       "previous_7d_usd": null,
       "previous_30d_usd": null,
-      "observed_at": "2026-11-03T00:00:00+00:00",
+      "observed_at": "2026-11-04T00:00:00+00:00",
       "change_7d_vs_prior_7d_pct": null,
       "change_30d_vs_prior_30d_pct": null
     },
@@ -147,7 +147,7 @@
     "source": "https://gov.fluid.io/t/post-mortem-treasury-actions-and-forward-strategy-following-resolv-incident/1774"
   },
   "valuation": {
-    "fdv_to_protocol_revenue_runrate": 22.694905718533477,
+    "fdv_to_protocol_revenue_runrate": 25.39461078900317,
     "annualization_warning": "Last 30 days x12 is a run rate, not a forecast or corporate earnings multiple."
   },
   "governance_headline_watch": [
@@ -180,68 +180,68 @@
     "market": {
       "status": "FRESH",
       "url": "https://api.coingecko.com/api/v3/coins/markets",
-      "observed_at": "2026-11-03T16:19:51.000Z",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-04T16:18:53.000Z",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "combined_tvl": {
       "status": "FRESH",
       "url": "https://api.llama.fi/protocol/fluid",
-      "observed_at": "2026-11-03T14:29:23+00:00",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-04T15:02:11+00:00",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "lending_tvl": {
       "status": "FRESH",
       "url": "https://api.llama.fi/protocol/fluid-lending",
-      "observed_at": "2026-11-03T14:29:23+00:00",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-04T14:59:35+00:00",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "dex_tvl": {
       "status": "FRESH",
       "url": "https://api.llama.fi/protocol/fluid-dex",
-      "observed_at": "2026-11-03T14:58:23+00:00",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-04T15:28:23+00:00",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "fees": {
       "status": "FRESH",
       "url": "https://api.llama.fi/summary/fees/fluid?dataType=dailyFees",
-      "observed_at": "2026-11-03T00:00:00+00:00",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-04T00:00:00+00:00",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "revenue": {
       "status": "FRESH",
       "url": "https://api.llama.fi/summary/fees/fluid?dataType=dailyRevenue",
-      "observed_at": "2026-11-03T00:00:00+00:00",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-04T00:00:00+00:00",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "holders_revenue": {
       "status": "FRESH",
       "url": "https://api.llama.fi/summary/fees/fluid?dataType=dailyHoldersRevenue",
-      "observed_at": "2026-11-03T00:00:00+00:00",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-04T00:00:00+00:00",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "lending_revenue": {
       "status": "FRESH",
       "url": "https://api.llama.fi/summary/fees/fluid-lending?dataType=dailyRevenue",
-      "observed_at": "2026-11-01T00:00:00+00:00",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-02T00:00:00+00:00",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "dex_revenue": {
       "status": "FRESH",
       "url": "https://api.llama.fi/summary/fees/fluid-dex?dataType=dailyRevenue",
-      "observed_at": "2026-11-03T00:00:00+00:00",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-04T00:00:00+00:00",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "dex_volume": {
       "status": "FRESH",
       "url": "https://api.llama.fi/summary/dexs/fluid-dex",
-      "observed_at": "2026-11-03T00:00:00+00:00",
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "observed_at": "2026-11-04T00:00:00+00:00",
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     },
     "governance": {
       "status": "FETCHED_OBSERVATION_UNDATED",
       "url": "https://gov.fluid.io/latest.json",
       "observed_at": null,
-      "retrieved_at": "2026-11-03T16:20:43.182741+00:00"
+      "retrieved_at": "2026-11-04T16:19:26.874120+00:00"
     }
   },
   "decision": {
